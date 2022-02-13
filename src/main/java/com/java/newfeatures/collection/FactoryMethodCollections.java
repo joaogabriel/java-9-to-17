@@ -1,4 +1,4 @@
-package com.java.newfeatures.collections.factorymethod;
+package com.java.newfeatures.collection;
 
 import java.util.List;
 import java.util.Map;

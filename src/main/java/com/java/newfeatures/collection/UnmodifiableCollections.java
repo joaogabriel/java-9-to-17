@@ -1,4 +1,4 @@
-package com.java.newfeatures.collections.tounmodifiable;
+package com.java.newfeatures.collection;
 
 import java.util.List;
 import java.util.Map;
@@ -14,7 +14,7 @@ public class UnmodifiableCollections {
         List<String> unmodifiableList = planeBrandsList.stream().collect(Collectors.toUnmodifiableList());
         System.out.println(unmodifiableList);
 
-        // list
+        // set
         Set<String> planeBrandsSet = Set.of("Boeing", "Airbus", "Embraer");
         Set<String> unmodifiableSet = planeBrandsSet.stream().collect(Collectors.toUnmodifiableSet());
         System.out.println(unmodifiableSet);

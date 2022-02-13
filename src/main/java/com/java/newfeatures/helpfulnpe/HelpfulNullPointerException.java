@@ -14,6 +14,7 @@ public class HelpfulNullPointerException {
 
         Address address = developer.getSquad().getManager().getAddress();
 
+        // null pointer exception aqui
         System.out.println(address.getLabel());
     }
 

@@ -24,10 +24,10 @@ public class Var {
         var var = "var";
 
         // mas isto não funciona!
-//        var language = null;
+        // var language = null;
 
         // isto também não!
-//        var language;
+        // var language;
     }
 
 }
